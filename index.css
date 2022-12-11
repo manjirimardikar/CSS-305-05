@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.maincontainer{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+}
+.sidebar{
+    width:20vw;
+    height:97%;
+    border: 2px solid white;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(234,251,249)
+}
+.image{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile{
+    margin-top:7%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: rgb(54, 148, 148);
+}
+.list{
+    height: 50%;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 50px;
+}
+li{
+    color: rgb(54, 148, 148);
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(54, 148, 148);
+    display: flex;
+    margin-bottom: 29px;
+    padding: 2%;
+}
+i{
+    margin: 0% 5%;
+}
+.join{
+    width:60%;
+    height:30px;
+    border:2px solid gray;
+    padding-bottom:3rem;
+    margin-bottom:3rem;
+    margin-left: 3rem;
+    border-radius: 20px;
+
+}
+.ptag{
+    margin: 1em;
+}
+
+.content{
+    height: 99%;
+    width: 95%;
+    background-image: linear-gradient(rgb(160, 212, 242),rgb(200, 250, 245),rgb(166, 228, 238));
+}
+.headersection{
+    margin-top:4rem;
+    margin-left: 5rem;
+    color: gray;
+}
+.active{
+    font-size: 40px;
+}
+.activebelowline{
+    width: 30%;
+    height:20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(234,251,249);
+}
+.divpara{
+    width:40%;
+    height:50px;
+    border:2px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 4%;
+    color: rgb(54, 148, 148);
+}
+.secondimage{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    margin-bottom: 6px;      
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.secondline {
+     width:110%;
+     height:20px;
+     border:2px solid;
+     border-radius: 20px;
+     background-color: rgb(121,235,224);
+}
